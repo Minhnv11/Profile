@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    <title>Document</title>
+</head>
+
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        <div class="header_img"> <img src="./assets/img/写真.jpg" alt=""> </div>
+    </header>
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav_logo "> <i class='bx bxs-palette nav_logo-icon'></i><span class="nav_logo-name">My WebPage</span> </a>
+                <div class="nav_list">
+                    <a href="#about" class="nav_link active"><i class='bx bxs-user nav_icon'></i> <span class="nav_name">ABOUT US </span> </a>
+                    <a href="#" class="nav_link"> <i class='bx bxs-graduation nav_icon'></i><span class="nav_name">EDUCATION</span> </a>
+                    <a href="#my-skills" class="nav_link"> <i class='bx bxs-pen nav_icon'></i><span class="nav_name">SKILL</span> </a>
+                    <a href="#contact" class="nav_link"> <i class='bx bxs-contact nav_icon'></i> <span class="nav_name">CONTACT</span> </a>
+                    <a href="#" class="nav_link"> <i class='bx bxs-message-edit nav_icon'></i> <span class="nav_name">MY EDIT</span> </a>
+                    <a href="#" class="nav_link"> <i class='bx bxl-blogger nav_icon'></i> <span class="nav_name">BLOG</span> </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Container Main start-->
+    <div id="main">
+        <div id="about">
+            <div class="about_us">
+                <div class="about-img">
+                    <img src="./assets/img/obout_img.jpeg" alt="">
+                </div>
+                <div class="about-text">
+                    <h2>welcome to My Page</h2>
+                    <h2>I'm NGUYEN VAN MINH </h2>
+                    <h5>自己紹介</h5>
+                    <p>名前: <span class="obout-span-text">グエンヴァンミン</span></p>
+                    <p>生年月日: <span class="obout-span-text">23歳</span></p>
+                    <p>国籍: <span class="obout-span-text">ベトナム</span></p>
+                    <p>職業: <span class="obout-span-text">学生</span></p>
+
+                    <p>趣味: <span class="obout-span-text">旅行、お釣り</span></p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="education">
+            <div class="education-heading heading-text">EDUCATION</div>
+            <div class="education-content">
+                <ul class="timeline">
+                    <li class="event" data-date="2017-2019">
+                        <div class="event-content  event-content-box ">
+                            <h3><span> 7月 - 2016年</h3>
+                             <p><i class="fas fa-arrow-alt-circle-right"></i></span>TAM DUONG 2　高校卒業</p>
+                                <h3>3月 - 2017年</h3>
+                                <p><i class="fas fa-arrow-alt-circle-right"></i></span>来日</p>
+                        </div>
+                    </li>
+                    <li class="event" data-date="2017-2019">
+                        <div class="event-content2 event-content-box ">
+                            <h3><span> 4月 - 2017年</h3>
+                                <p><i class="fas fa-arrow-alt-circle-right"></i></span>芦屋国際学院 日本語学校　入学</p>
+                                <h3>3月 - 2019年</h3>
+                                <p><i class="fas fa-arrow-alt-circle-right"></i></span>芦屋国際学院 日本語学校　卒業</p>
+                        </div>
+                    </li>
+                    <li class="event" data-date="2017-2019">
+                        <div class="event-content3 event-content-box">
+                            <h3><span> 4月 - 2019年</h3>
+                                <p><i class="fas fa-arrow-alt-circle-right"></i></span>奈良コンピュータ専門学校　IT リテラシー科　入学</p>
+                                <h3>3月 - 2022年</h3>
+                                <p><i class="fas fa-arrow-alt-circle-right"></i></span>奈良コンピュータ専門学校　IT リテラシー科　卒業見込み</p>
+                        </div>
+                    </li>
+                    <li class="event-icon"><i class="fas fa-user-graduate"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="my-skills">
+            <div class="my-skills-heading heading-text"> SKILL </div>
+            <div class="skill-detail">
+                <div class="skills-language">
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-html5"></i><span>HTML</span> </div>
+                        <div class="skill-bar" data-percent="70%">
+                            <div class="skill-box html-bar">70%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                        <div class="skill-bar" data-percent="60%">
+                            <div class="skill-box css-bar">60%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-js-square"></i><span>Javascript</span></div>
+                        <div class="skill-bar" data-percent="45%">
+                            <div class="skill-box js-bar">45%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-php"></i><span>PHP</span></div>
+                        <div class="skill-bar" data-percent="30%">
+                            <div class="skill-box php-bar">30%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-framework">
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+                        <div class="skill-bar" data-percent="50%">
+                            <div class="skill-box bootstrap-bar">50%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class='bx bxl-jquery'></i><span>Jquery</span></div>
+                        <div class="skill-bar" data-percent="30%">
+                            <div class="skill-box jquery-bar">30%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-node"></i><span>Nodejs</span></div>
+                        <div class="skill-bar" data-percent="10%">
+                            <div class="skill-box nodejs-bar">10%</div>
+                        </div>
+                    </div>
+                    <div class="skill-box-bar">
+                        <div class="skill-text"><i class="fab fa-react"></i><span>React</span></div>
+                        <div class="skill-bar " data-percent="10%">
+                            <div class="skill-box react-bar">10%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact-details">
+                <div class="contact-phone contact-box">
+                    <div class="contact-icon"><i class='bx bxs-phone'></i></div>
+                    <div class="contact-text">My NumberPhone</div>
+                    <div class="contact-span">080-7859-****</div>
+                </div>
+                <div class="contact-email contact-box">
+                    <div class="contact-icon"><i class='bx bxs-envelope'></i></div>
+                    <div class="contact-text">My Email</div>
+                    <div class="contact-span">minhnvm****@gmail.com</div>
+                </div>
+                <div class="contact-box">
+                    <div class="contact-icon icon-search"><i class="fas fa-share-alt"></i></i>
+                    </div>
+                    <div class="contact-text">Social</div>
+                    <div class="social-list">
+                        <div class="social-items contact-icon"><i class='bx bxl-facebook-circle'></i></div>
+                        <div class="social-items contact-icon"><i class='bx bxl-twitter'></i></div>
+                        <div class="social-items contact-icon"><i class='bx bxl-pinterest'></i></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="contact-form-heading">CONTACT US</div>
+                <div class="contact-form-content">
+                    <form action="#" class="contact-form-input">
+                        <div class="contact-name">
+                            <div class="fname">
+                                <input type="text" name="firstname" id="fname" placeholder="Firts Name">
+                            </div>
+                            <div class="lname">
+                                <input type="text" name="lastname" id="lname" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="contact-form-email">
+                            <input type="email" name="email" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="contact-message">
+                            <textarea name="message" id="mess" cols="20" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <div class="contact-submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                    <div class="contact-img">
+                        <img src="./assets/img/contact-img2.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!--Container Main end-->
+
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./assets/js/main.js"></script>
+
+</html>
